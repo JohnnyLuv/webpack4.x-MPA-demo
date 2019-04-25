@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development",
-    "serve": "webpack-dev-server"
+    "serve": "webpack-dev-server --host 0.0.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
